@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    margin: 100px 0;
+}
+.hello{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: 50px;
+}
+.kuai{
+    overflow: hidden;
+    color: #666;
+    padding: 20px;
+}
+.two-1{
+    width: 1040px;
+    padding: 20px 0;
+}
+.two-1>p{
+    text-indent: 2em;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+.two-1-1{
+    overflow: hidden;
+}
+.two-1-1 ul{
+    width: 600px;
+    float: left;
+    background:rgb(136, 254, 250);
+    border-radius: 20px;
+    margin-left: 0px;
+    padding: 40px;
+    height: 235px;
+}
+.two-1-1 li{
+    font-size: 16px;
+    line-height: 40px;
+}
+.two-1-1 li h2{
+    padding: 0px 0 30px;
+}
+.zp{
+    float: right;
+    width: 320px;
+    border-radius: 20px;
+    height: 300px;
+}
+.two-1-2{
+    background:rgb(118, 254, 250);
+    border-radius: 20px;
+    padding: 40px;
+    overflow: hidden;
+    margin: 30px 0 0;
+}
+.two-1-2 p{
+    line-height: 30px;
+    margin-bottom: 24px;
+    color: #333;
+    width: 240px;
+    float: left;
+}
+.two-2 img{
+    width: 316px;
+    margin:15px;
+    float: left;
+    height: 230px;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.two-2 img:hover{
+    width: 1008px;
+    height: 690px;
+    transition: all 1s;
+}
+.three{
+    background: #0ce9da;
+    height: 90px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 90px;
+}
